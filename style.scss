@@ -10,10 +10,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 45px;
 
     .header{
         width: 100%;
         height: 10vh;
         background-color: black;
+        .header_logo{
+            display: flex;
+            width: 124px;
+            justify-content: space-between;
+            align-items: center;
+            color: #534EC6;
+            font-size: 32px;
+            font-weight: 600;
+        }
     }
 }
