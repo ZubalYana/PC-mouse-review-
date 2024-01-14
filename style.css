@@ -155,4 +155,30 @@
 .wrap .mainPage .mainPage_textPart_button:hover {
   background-color: #534EC6;
   color: #fff;
+}
+.wrap .mainPage .mainPage_picturePart_mouseBackground {
+  width: 728px;
+  height: 361px;
+  border-radius: 200px 0 0 200px;
+  margin-right: -45px;
+  position: relative;
+}
+.wrap .mainPage .mainPage_picturePart_mouseBackground_backgroundImg {
+  width: 728px;
+  height: 361px;
+  border-radius: 200px 0 0 200px;
+}
+.wrap .mainPage .mainPage_picturePart_mouseBackground_overlay {
+  width: 728px;
+  height: 361px;
+  border-radius: 200px 0 0 200px;
+  background-color: rgba(74, 66, 228, 0.8549019608);
+  position: absolute;
+  top: 0;
+}
+.wrap .mainPage .mainPage_picturePart {
+  width: 65%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

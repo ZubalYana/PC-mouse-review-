@@ -152,5 +152,31 @@
             background-color: #534EC6;
             color: #fff;
         }
+        .mainPage_picturePart_mouseBackground{
+            width: 728px;
+            height: 361px;
+            border-radius: 200px 0 0 200px;
+            margin-right: -45px;
+            position: relative;
+        }
+        .mainPage_picturePart_mouseBackground_backgroundImg{
+            width: 728px;
+            height: 361px;
+            border-radius: 200px 0 0 200px;
+        }
+        .mainPage_picturePart_mouseBackground_overlay{
+            width: 728px;
+            height: 361px;
+            border-radius: 200px 0 0 200px;
+            background-color: #4a42e4da;
+            position: absolute;
+            top: 0;
+        }
+        .mainPage_picturePart{
+            width: 65%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
     }
 }
