@@ -20,7 +20,9 @@
 .wrap .header {
   width: 100%;
   height: 10vh;
-  background-color: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .wrap .header .header_logo {
   display: flex;
@@ -31,6 +33,9 @@
   font-size: 32px;
   font-weight: 600;
 }
+.wrap .header .logo_img {
+  width: 43px;
+}
 .wrap .header .header_nav {
   width: 545px;
   display: flex;
@@ -39,4 +44,18 @@
   font-size: 24px;
   font-weight: 600;
   font-family: KyivTypeTitling;
+  list-style: none;
+}
+.wrap .header .header_nav li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap .header .activeLi {
+  width: 33px;
+  height: 2px;
+  background-color: #363466;
+  border-radius: 8px;
+  margin-top: 2px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4039215686);
 }/*# sourceMappingURL=style.css.map */

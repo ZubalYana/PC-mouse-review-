@@ -20,7 +20,10 @@
     .header{
         width: 100%;
         height: 10vh;
-        background-color: black;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        // background-color: black;
         .header_logo{
             display: flex;
             width: 124px;
@@ -30,6 +33,9 @@
             font-size: 32px;
             font-weight: 600;
         }
+        .logo_img{
+            width: 43px;
+        }
         .header_nav{
             width: 545px;
             display: flex;
@@ -38,7 +44,21 @@
             font-size: 24px;
             font-weight: 600;
             font-family: KyivTypeTitling;
-
+            list-style: none;
+            li{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
         }
+        .activeLi{
+            width: 33px;
+            height: 2px;
+            background-color: #363466;
+            border-radius: 8px;
+            margin-top: 2px;
+            box-shadow: 3px 3px 3px #00000067;
+        }
+
     }
 }
