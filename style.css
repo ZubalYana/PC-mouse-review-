@@ -181,4 +181,48 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+.wrap .mainPage .mainPage_picturePart_mouse {
+  width: 250px;
+  position: absolute;
+  right: 350px;
+  top: 230px;
+  transition: 1s ease;
+}
+.wrap .mainPage .mainPage_picturePart_mouse:hover {
+  transform: rotate(0deg);
+}
+.wrap .mainPage .mainPage_picturePart_linesContainer {
+  right: 390px;
+}
+.wrap .mainPage .mainPage_picturePart_line {
+  height: 2px;
+  background: linear-gradient(to right, #000000, #363466, #817CF2, #ffffff);
+  position: absolute;
+}
+.wrap .mainPage #line1 {
+  width: 200px;
+  top: 300px;
+  right: 275px;
+  position: absolute;
+}
+.wrap .mainPage #line2 {
+  width: 170px;
+  top: 350px;
+  right: 275px;
+  position: absolute;
+  height: 3px;
+}
+.wrap .mainPage #line3 {
+  width: 230px;
+  top: 400px;
+  right: 275px;
+  position: absolute;
+}
+.wrap .mainPage #line4 {
+  width: 318px;
+  top: 450px;
+  right: 275px;
+  position: absolute;
+  height: 3px;
 }/*# sourceMappingURL=style.css.map */
