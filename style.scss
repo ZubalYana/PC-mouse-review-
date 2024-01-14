@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat;
+    font-family: KyivTypeTitling;
 }
+@font-face {
+    font-family: 'KyivTypeTitling';
+    src: url(KyivTypeTitling-VarGX.ttf) format('ttf'),
+  }
 .wrap{
     width: 100%;
     height: 100vh;
@@ -23,6 +27,14 @@
             align-items: center;
             color: #534EC6;
             font-size: 32px;
+            font-weight: 600;
+        }
+        .header_nav{
+            width: 545px;
+            display: flex;
+            justify-content: space-between;
+            color: #363466;
+            font-size: 24px;
             font-weight: 600;
         }
     }
