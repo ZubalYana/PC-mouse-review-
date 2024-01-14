@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: KyivTypeTitling;
+    font-family: KyivTypeTitling !important;
 }
 @font-face {
-    font-family: 'KyivTypeTitling';
-    src: url(KyivTypeTitling-VarGX.ttf) format('ttf'),
+    font-family: "KyivTypeTitling";
+    src: url(KyivTypeTitling-VarGX.ttf);
   }
 .wrap{
     width: 100%;
@@ -15,6 +15,7 @@
     flex-direction: column;
     align-items: center;
     padding: 45px;
+
 
     .header{
         width: 100%;
@@ -36,6 +37,8 @@
             color: #363466;
             font-size: 24px;
             font-weight: 600;
+            font-family: KyivTypeTitling;
+
         }
     }
 }
