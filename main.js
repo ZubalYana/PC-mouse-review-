@@ -1,3 +1,5 @@
+
+//the mouse picture animation
 let mouse = document.getElementById('mouse');
 let line1 = document.getElementById('line1');
 let line2 = document.getElementById('line2');
@@ -11,7 +13,6 @@ mouse.addEventListener('mouseover', ()=>{
     mouse.style.transform = 'rotate(0deg)';
     mouse.style.width = '200px';
     mouse.style.top = '215px';
-
     setTimeout(() => {
         line1.style.width = '200px';
         line2.style.width = '170px';
@@ -24,18 +25,14 @@ mouse.addEventListener('mouseover', ()=>{
         text3.style.opacity = '1';
         text4.style.opacity = '1';
     }, 1200);
-
 });
 mouse.addEventListener('mouseout', ()=>{
-
     setTimeout(() => {
         text1.style.opacity = '0';
         text2.style.opacity = '0';
         text3.style.opacity = '0';
         text4.style.opacity = '0';
     }, 100);
-
-    
     setTimeout(() => {
         line1.style.width = '0px';
         line2.style.width = '0px';
@@ -47,9 +44,4 @@ mouse.addEventListener('mouseout', ()=>{
         mouse.style.width = '250px';
         mouse.style.top = '230px';
     }, 1200);
-
-
-
-
-
 });
