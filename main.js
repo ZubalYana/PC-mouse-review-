@@ -45,3 +45,35 @@ mouse.addEventListener('mouseout', ()=>{
         mouse.style.top = '230px';
     }, 1200);
 });
+
+
+//theme changing and saving
+let theme = localStorage.getItem('theme') || 'light';
+let header_themeChanger = document.getElementById('header_themeChanger')
+header_themeChanger.addEventListener('click', ()=>{
+    if(theme == 'light'){
+        theme = 'dark';
+        localStorage.setItem('theme', theme);
+        changeTheme(theme);
+
+    }else{
+        theme = 'light';
+        localStorage.setItem('theme', theme);
+        changeTheme(theme);
+    }
+})
+
+function changeTheme(){
+    let wrap = document.getElementById('wrap');
+    let select = document.getElementById('language')
+    if(theme == 'light'){
+        header_themeChanger.style.justifyContent = 'flex-end'
+        wrap.style.backgroundColor = '#000'
+        select.style.backgroundColor = '#000'
+    }else{
+        header_themeChanger.style.justifyContent = 'flex-start'
+        wrap.style.backgroundColor = '#fff'
+        select.style.backgroundColor = '#fff'
+
+    }
+}
