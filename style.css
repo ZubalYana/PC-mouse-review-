@@ -190,11 +190,6 @@
   top: 230px;
   transition: 1s ease;
 }
-.wrap .mainPage .mainPage_picturePart_mouse:hover {
-  transform: rotate(0deg);
-  width: 200px;
-  top: 215px;
-}
 .wrap .mainPage .mainPage_picturePart_linesContainer {
   right: 390px;
 }
@@ -205,28 +200,26 @@
   transition: 1s ease;
 }
 .wrap .mainPage #line1 {
-  width: 200px;
-  top: 300px;
-  left: 1061px;
+  width: 0px;
+  top: 270px;
+  left: 1088px;
   position: absolute;
 }
 .wrap .mainPage #line2 {
-  width: 170px;
-  top: 350px;
-  left: 1090px;
+  width: 0px;
+  top: 310px;
+  left: 1117px;
   position: absolute;
-  height: 3px;
 }
 .wrap .mainPage #line3 {
-  width: 230px;
-  top: 400px;
-  left: 1020px;
+  width: 0px;
+  top: 350px;
+  left: 1056px;
   position: absolute;
 }
 .wrap .mainPage #line4 {
-  width: 318px;
-  top: 450px;
-  left: 942px;
+  width: 0px;
+  top: 390px;
+  left: 991px;
   position: absolute;
-  height: 3px;
 }/*# sourceMappingURL=style.css.map */
