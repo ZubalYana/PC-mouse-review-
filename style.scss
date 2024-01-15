@@ -126,6 +126,7 @@
         ul li{
             font-size: 20px;
             font-weight: 500;
+            // margin-bottom: 10px;
         }
         .mainPage_textPart_buttons{
             width: 428px;
@@ -220,6 +221,35 @@
             position: absolute;
 
         }
+        .mainPage_picturePart_text{
+            position: absolute;
+            font-size: 16px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+        #text1{
+            top: 82px;
+            left: 39px;
+        }
+        #text2{
+            top: 310px;
+            left: 20px;
+        }
+        #text3{
+            top: 350px;
+            left: 20px;
+        }
+        #text4{
+            top: 390px;
+            left: 20px;
+        }
+
+        .mainPage_picturePart_textContainer{
+            width: 230px;
+            height: 361px;
+            position: absolute;
+        }
+
 
     }
 }

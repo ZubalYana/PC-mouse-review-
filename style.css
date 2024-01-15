@@ -222,4 +222,31 @@
   top: 390px;
   left: 991px;
   position: absolute;
+}
+.wrap .mainPage .mainPage_picturePart_text {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.wrap .mainPage #text1 {
+  top: 82px;
+  left: 39px;
+}
+.wrap .mainPage #text2 {
+  top: 310px;
+  left: 20px;
+}
+.wrap .mainPage #text3 {
+  top: 350px;
+  left: 20px;
+}
+.wrap .mainPage #text4 {
+  top: 390px;
+  left: 20px;
+}
+.wrap .mainPage .mainPage_picturePart_textContainer {
+  width: 230px;
+  height: 361px;
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
