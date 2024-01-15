@@ -66,14 +66,39 @@ header_themeChanger.addEventListener('click', ()=>{
 function changeTheme(){
     let wrap = document.getElementById('wrap');
     let select = document.getElementById('language')
+    let header_nav = document.getElementById('header_nav')
+    let activeLi = document.getElementById('activeLi')
+    let mainPage_textPart_ul = document.getElementById('mainPage_textPart_ul')
+    let header_themeChangerCircle = document.getElementById('header_themeChangerCircle')
+    // let mainPage_picturePart_text = document.getElementById('mainPage_picturePart_textContainer')
     if(theme == 'light'){
         header_themeChanger.style.justifyContent = 'flex-end'
         wrap.style.backgroundColor = '#000'
         select.style.backgroundColor = '#000'
+        select.style.color = '#534EC6'
+        header_nav.style.color = '#534EC6'
+        activeLi.style.backgroundColor = '#534EC6'
+        activeLi.style.boxShadow = '3px 3px 3px #726ce9dd'
+        mainPage_textPart_ul.style.color = '#534EC6'
+        mainPage_textPart_h1.style.color = '#534EC6'
+        mainPage_textPart_h2.style.color = '#534EC6'
+        header_themeChangerCircle.style.backgroundColor = '#000'
+        mainPage_picturePart_text.style.color = '#fff'
+
     }else{
         header_themeChanger.style.justifyContent = 'flex-start'
         wrap.style.backgroundColor = '#fff'
         select.style.backgroundColor = '#fff'
+        select.style.color = '#363466'
+        header_nav.style.color = '#363466'
+        activeLi.style.backgroundColor = '#363466'
+        activeLi.style.boxShadow = '3px 3px 3px #00000067'
+        mainPage_textPart_ul.style.color = '#363466'
+        mainPage_textPart_h1.style.color = '#363466'
+        mainPage_textPart_h2.style.color = '#363466'
+        header_themeChangerCircle.style.backgroundColor = '#fff'
+        mainPage_picturePart_text.style.color = '#000'
+
 
     }
 }
