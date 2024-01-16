@@ -73,15 +73,6 @@
   margin-top: 2px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4039215686);
 }
-.wrap .header select, .wrap .header option {
-  color: #363466;
-  font-size: 24px;
-  font-weight: 700;
-  cursor: pointer;
-}
-.wrap .header select {
-  border: none;
-}
 .wrap .header .header_themeChanger {
   width: 52px;
   height: 26px;
@@ -99,8 +90,17 @@
   border: #534EC6 3px solid;
 }
 .wrap .header .header_langiageAndTheme {
-  width: 200px;
+  width: 250px;
   display: flex;
+  justify-content: space-between;
+}
+.wrap .header .header_langiageAndTheme_languageCon {
+  color: #363466;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  width: 140px;
   justify-content: space-between;
 }
 .wrap .mainPage {

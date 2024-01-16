@@ -111,3 +111,6 @@ header_themeChanger.addEventListener('click', () => {
     localStorage.setItem('theme', theme);
     updateTheme();
 });
+
+
+//language changer 
