@@ -48,8 +48,6 @@ mouse.addEventListener('mouseout', ()=>{
 
 
 //theme changing and saving
-
-
 let theme = localStorage.getItem('theme') || 'light';
 let header_themeChanger = document.getElementById('header_themeChanger');
 let wrap = document.getElementById('wrap');
@@ -101,23 +99,15 @@ function updateTheme() {
         line4.style.background = 'linear-gradient(to right,  #000000, #363466, #817CF2, #ffffff)'
     }
 }
-
-// Update the theme when the page loads
 document.addEventListener('DOMContentLoaded', () => {
     updateTheme();
 });
-
-// Event listener for theme changer
 header_themeChanger.addEventListener('click', () => {
     if (theme === 'light') {
         theme = 'dark';
     } else {
         theme = 'light';
     }
-
-    // Save the theme in localStorage
     localStorage.setItem('theme', theme);
-
-    // Update the theme styles
     updateTheme();
 });
