@@ -116,3 +116,114 @@ header_themeChanger.addEventListener('click', () => {
 
 
 //language changer 
+let semanticCore ={
+    main: {
+        "en": "Home",
+        "ukraine": "Головна",
+    },
+    goods: {
+        "en": "Goods",
+        "ukraine": "Товари",
+    },
+    basket: {
+        "en": "Basket",
+        "ukraine": "Кошик",
+    },
+    contacts: {
+        "en": "Contacts",
+        "ukraine": "Контакти",
+    },
+    mainPage_textPart_h1: {
+        "en": "The new one",
+        "ukraine": "Новітня розробка",
+    },
+    mainPage_textPart_h2: {
+        "en": "Wide functionality, rich, practical and unique design. Two connection types and multiple instance colors!",
+        "ukraine": "Широкий функціонал, багатий, практичний та унікальний дизайн. Два типи підключення та декілька кольорів екземплярів!",
+    },
+    li1: {
+        "en": "quality case and reliable ring",
+        "ukraine": "якісний корпус та надійне кільце",
+    },
+    li2: {
+        "en": "convenient use and form",
+        "ukraine": "зручне використання та форма",
+    },
+    li3: {
+        "en": "rich functionality in all areas",
+        "ukraine": "багатий функціонал в усіх сферах",
+    },
+    li4: {
+        "en": "different types of connection",
+        "ukraine": "різні типи підключення",
+    },
+    li5: {
+        "en": "wireless type",
+        "ukraine": "бездротовий тип",
+    },
+    li6: {
+        "en": "two types of connection",
+        "ukraine": "два види з’єднання",
+    },
+    mainPage_textPart_button1: {
+        "en": "More",
+        "ukraine": "Детальніше",
+    },
+    mainPage_textPart_button2: {
+        "en": "Buy",
+        "ukraine": "Замовити",
+    },
+    text1: {
+        "en": "Scroll bar",
+        "ukraine": "Колосо прокрутки",
+    },
+    text2: {
+        "en": "Right button",
+        "ukraine": "Права кнопка",
+    },
+    text3: {
+        "en": "Left button",
+        "ukraine": "Ліва кнопка",
+    },
+    text4: {
+        "en": "Side button",
+        "ukraine": "Бічна кнопка",
+    },
+    privacyPolicy: {
+        "en": `QQC is the main service for the sale of computer equipment in Ukraine. All rights reserved.`,
+        "ukraine":  `QQC - головний сервіс продажу комп’ютерної техніки в Україні. Усі права захищено.`,
+    },
+}
+
+let allLang = ['ukraine', 'en'];
+let lang = 'ukraine'
+
+en.onclick = function(){
+    lang = 'en'
+    console.log(lang)
+    changeUrl()
+}
+ukraine.onclick = function(){
+    lang = 'ukraine'
+    console.log(lang)
+    changeUrl()
+}
+function changeUrl(){
+    location.href = window.location.pathname + '#' + lang;
+    location.reload();
+}
+
+function changeLanguage(){
+    let hash = (window.location.hash).substring(1)
+    console.log(hash)
+    if(!allLang.includes(hash)){
+        location.href = window.location.pathname + '#ukraine'
+        location.reload();
+    }
+
+    for(let key in semanticCore){
+        document.querySelector('.language-' + key).innerText = semanticCore[key][hash]
+    }
+}
+
+changeLanguage()
