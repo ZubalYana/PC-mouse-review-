@@ -55,6 +55,8 @@ let header_nav = document.getElementById('header_nav')
 let activeLi = document.getElementById('activeLi')
 let mainPage_textPart_ul = document.getElementById('mainPage_textPart_ul')
 let header_themeChangerCircle = document.getElementById('header_themeChangerCircle')
+let contactsFooter_privacyPolicy = document.getElementById('contactsFooter_privacyPolicy')
+let header_langiageAndTheme_languageCon = document.getElementById('header_langiageAndTheme_languageCon')
 function updateTheme() {
     if (theme === 'light') {
         header_themeChanger.style.justifyContent = 'flex-end'
@@ -74,6 +76,9 @@ function updateTheme() {
         line2.style.background = 'linear-gradient(to right,  #000000, #363466, #4e4ca4, #000)'
         line3.style.background = 'linear-gradient(to right,  #000000, #363466, #4e4ca4, #000)'
         line4.style.background = 'linear-gradient(to right,  #000000, #363466, #4e4ca4, #000)'
+        contactsFooter_privacyPolicy.style.color = '#a0a0a0'
+        header_langiageAndTheme_languageCon.style.color = '#534EC6'
+
     } else {
         header_themeChanger.style.justifyContent = 'flex-start'
         wrap.style.backgroundColor = '#fff'
@@ -92,6 +97,8 @@ function updateTheme() {
         line2.style.background = 'linear-gradient(to right,  #000000, #363466, #817CF2, #ffffff)'
         line3.style.background = 'linear-gradient(to right,  #000000, #363466, #817CF2, #ffffff)'
         line4.style.background = 'linear-gradient(to right,  #000000, #363466, #817CF2, #ffffff)'
+        contactsFooter_privacyPolicy.style.color = '#303030'
+        header_langiageAndTheme_languageCon.style.color = '#363466'
     }
 }
 document.addEventListener('DOMContentLoaded', () => {
