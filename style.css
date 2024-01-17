@@ -100,7 +100,7 @@
   font-weight: 700;
   cursor: pointer;
   display: flex;
-  width: 140px;
+  width: 125px;
   justify-content: space-between;
 }
 .wrap .mainPage {
@@ -251,4 +251,28 @@
   width: 230px;
   height: 361px;
   position: absolute;
+}
+.wrap .contactsFooter {
+  width: 100%;
+  height: 20vh;
+  margin-top: 100px;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .contactsFooter .contactsFooter_privacyPolicy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 300;
+  color: #303030;
+  margin-top: 100px;
+}
+.wrap .contactsFooter #privacyPolicy {
+  color: #817CF2;
+  margin: 0px 3px 0px 3px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

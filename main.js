@@ -51,7 +51,6 @@ mouse.addEventListener('mouseout', ()=>{
 let theme = localStorage.getItem('theme') || 'light';
 let header_themeChanger = document.getElementById('header_themeChanger');
 let wrap = document.getElementById('wrap');
-let select = document.getElementById('language')
 let header_nav = document.getElementById('header_nav')
 let activeLi = document.getElementById('activeLi')
 let mainPage_textPart_ul = document.getElementById('mainPage_textPart_ul')
@@ -60,8 +59,6 @@ function updateTheme() {
     if (theme === 'light') {
         header_themeChanger.style.justifyContent = 'flex-end'
         wrap.style.backgroundColor = '#000'
-        select.style.backgroundColor = '#000'
-        select.style.color = '#534EC6'
         header_nav.style.color = '#534EC6'
         activeLi.style.backgroundColor = '#534EC6'
         activeLi.style.boxShadow = '3px 3px 3px #726ce9dd'
@@ -80,8 +77,6 @@ function updateTheme() {
     } else {
         header_themeChanger.style.justifyContent = 'flex-start'
         wrap.style.backgroundColor = '#fff'
-        select.style.backgroundColor = '#fff'
-        select.style.color = '#363466'
         header_nav.style.color = '#363466'
         activeLi.style.backgroundColor = '#363466'
         activeLi.style.boxShadow = '3px 3px 3px #00000067'
