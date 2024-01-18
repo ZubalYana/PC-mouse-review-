@@ -19,8 +19,6 @@
     flex-direction: column;
     align-items: center;
     padding: 45px;
-
-
     .header{
         width: 100%;
         height: 10vh;
@@ -283,5 +281,7 @@
         }
     }
 }
-
+.burgerPopup{
+    display: none;
+}
 

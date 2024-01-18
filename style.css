@@ -278,4 +278,8 @@
   color: #817CF2;
   margin: 0px 3px 0px 3px;
   cursor: pointer;
+}
+
+.burgerPopup {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

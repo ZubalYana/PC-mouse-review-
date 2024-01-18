@@ -47,6 +47,7 @@ mouse.addEventListener('mouseout', ()=>{
 });
 
 
+
 //theme changing and saving
 let theme = localStorage.getItem('theme') || 'light';
 let header_themeChanger = document.getElementById('header_themeChanger');
@@ -194,10 +195,8 @@ let semanticCore ={
         "ukraine":  `QQC - головний сервіс продажу комп’ютерної техніки в Україні. Усі права захищено.`,
     },
 }
-
 let allLang = ['ukraine', 'en'];
 let lang = 'ukraine'
-
 en.onclick = function(){
     lang = 'en'
     console.log(lang)
@@ -212,7 +211,6 @@ function changeUrl(){
     location.href = window.location.pathname + '#' + lang;
     location.reload();
 }
-
 function changeLanguage(){
     let hash = (window.location.hash).substring(1)
     console.log(hash)
@@ -225,5 +223,4 @@ function changeLanguage(){
         document.querySelector('.language-' + key).innerText = semanticCore[key][hash]
     }
 }
-
 changeLanguage()
