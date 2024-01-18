@@ -108,7 +108,7 @@
 }
 .wrap .mainPage {
   width: 100%;
-  height: 70vh;
+  min-height: 70vh;
   display: flex;
 }
 .wrap .mainPage .mainPage_textPart {

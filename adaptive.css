@@ -22,6 +22,13 @@
     background-color: #363466;
   }
   .wrap .mainPage {
+    flex-direction: column;
+  }
+  .wrap .mainPage .mainPage_textPart {
+    display: flex;
+    width: 100%;
+  }
+  .wrap .mainPage .mainPage_picturePart {
     display: none;
   }
   .wrap .contactsFooter {

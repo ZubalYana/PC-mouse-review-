@@ -21,9 +21,17 @@
                     background-color: #363466;
                 }
             }
+
         }
         .mainPage{
-            display: none;
+            flex-direction: column;
+            .mainPage_textPart{
+                display: flex;
+                width: 100%;
+            }
+            .mainPage_picturePart{
+                display: none;
+            }
         }
         .contactsFooter{
             display: none;
