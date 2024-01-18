@@ -1,1 +1,14 @@
-/*# sourceMappingURL=adaptive.css.map */
+@media screen and (max-device-width: 500px) {
+  .wrap {
+    padding: 20px;
+  }
+  .wrap .header .header_nav {
+    display: none;
+  }
+  .wrap .header .header_langiageAndTheme {
+    display: none;
+  }
+  .wrap .mainPage {
+    display: none;
+  }
+}/*# sourceMappingURL=adaptive.css.map */

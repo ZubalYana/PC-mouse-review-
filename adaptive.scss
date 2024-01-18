@@ -1,3 +1,17 @@
-@media screen and ( max-device-width: 500px ) {
-    
+@media screen and (max-device-width: 500px) {
+    .wrap{
+        padding: 20px;
+        .header{
+            .header_nav{
+                display: none;
+            }
+            .header_langiageAndTheme{
+                display: none;
+            }
+        }
+        .mainPage{
+            display: none;
+        }
+    }
+
 }
