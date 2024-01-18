@@ -25,17 +25,36 @@
         }
         .mainPage{
             flex-direction: column;
+            margin-top: 20px;
             .mainPage_textPart{
                 display: flex;
                 width: 100%;
             }
             .mainPage_picturePart{
-                display: none;
+                display: flex;
+                width: 100%;
+                margin-top: 100px;
             }
+            .mainPage_picturePart_mouseBackground, .mainPage_picturePart_mouseBackground_backgroundImg, .mainPage_picturePart_mouseBackground_overlay{
+                width: 450px;
+                height: 223px;
+            }
+            .mainPage_picturePart_mouse{
+                width: 155px;
+                top: 665px;
+                right: 190px;
+
+            }
+
         }
         .contactsFooter{
-            display: none;
+            top: 720px;
+            .contactsFooter_privacyPolicy{
+                font-size: 8px;
+                margin-bottom: 20px;
+            }
         }
+
     }
 
 }
