@@ -279,7 +279,6 @@
   margin: 0px 3px 0px 3px;
   cursor: pointer;
 }
-
-.burgerPopup {
+.wrap .burgerPopup {
   display: none;
 }/*# sourceMappingURL=style.css.map */
