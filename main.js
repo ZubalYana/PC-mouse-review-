@@ -226,9 +226,3 @@ function changeLanguage(){
 changeLanguage()
 
 
-//burger popup functional 
-let burger = document.getElementById('burger');
-let burgerPopup = document.getElementById('burgerPopup');
-burger.addEventListener('onclick', ()=>{
-    burgerPopup.style.display = 'flex';
-})
